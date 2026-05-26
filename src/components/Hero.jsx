@@ -7,15 +7,14 @@ const Hero = () => {
       <div className="bg-blob blob-2" style={{ animationDelay: '2s' }}></div>
       
       <div className="container text-center animate-fade-up">
-        <p className="mb-2" style={{ color: 'var(--accent-primary)', fontWeight: '600', letterSpacing: '2px', textTransform: 'uppercase' }}>
-          Hello, World! I am
-        </p>
-        <h1 className="heading-xl mb-4">
-          Sonu Kumar<br/>
-          <span className="text-gradient">IT Student & MERN Stack Developer</span>
+        <h1 className="heading-xl mb-4 animate-fade-up">
+          Hi, I'm <span className="text-gradient">Sonu Kumar</span>
         </h1>
-        <p className="mb-8" style={{ maxWidth: '600px', margin: '0 auto 3rem auto', color: 'var(--text-secondary)', fontSize: '1.1rem' }}>
-          I am a B.Tech IT student at BPIT with a strong foundation in software development and programming. I build full-stack applications using the MERN stack and have a passion for problem-solving.
+        <h2 className="heading-md mb-6 animate-fade-up delay-1" style={{ color: 'var(--text-secondary)' }}>
+          <span className="text-gradient">Software Engineer & MERN Stack Developer</span>
+        </h2>
+        <p className="mb-8 animate-fade-up delay-2" style={{ maxWidth: '600px', margin: '0 auto 2rem auto', fontSize: '1.1rem', color: 'var(--text-secondary)' }}>
+          I am an IT Graduate from BPIT with a strong foundation in software development and programming. I build full-stack applications using the MERN stack and have a passion for problem-solving.
         </p>
         <div className="flex justify-center gap-4">
           <AnchorLink href="#projects" className="btn btn-primary">View My Work</AnchorLink>

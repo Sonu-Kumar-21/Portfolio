@@ -21,7 +21,7 @@ const About = () => {
             }}></div>
             <h3 className="mb-4" style={{ fontSize: '1.5rem' }}>Brief Summary</h3>
             <p className="mb-4" style={{ color: 'var(--text-secondary)' }}>
-              I am Sonu Kumar, graduating with a B.Tech in Information Technology from Bhagwan Parshuram Institute of Technology (2022-2026). During my academic years, I have developed a strong foundation in software development, programming, problem-solving skills, and Communication Skills.
+              I am Sonu Kumar, an IT Graduate with a B.Tech in Information Technology from Bhagwan Parshuram Institute of Technology (2022-2026). During my academic years, I have developed a strong foundation in software development, programming, problem-solving skills, and Communication Skills.
             </p>
             <p className="mb-4" style={{ color: 'var(--text-secondary)' }}>
               I am proficient in languages such as Java and Python, and have experience with tools and technologies including ReactJs, MERN stack development, databases, and version control systems.
